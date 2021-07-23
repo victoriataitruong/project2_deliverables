@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
 * {
 	box-sizing: border-box;
@@ -42,7 +46,12 @@ body {
 	left: 0px;
 	font-family: 'Raleway';
 }
-
+.input-container {
+	position: absolute;
+	line-height: 3000%;
+	left: 0px;
+	font-family: 'Raleway';
+}
 input[type="text"] {
 	left: 0px;
 	top: 200px;
