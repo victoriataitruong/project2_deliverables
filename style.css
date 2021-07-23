@@ -48,8 +48,10 @@ body {
 }
 .input-container {
 	position: absolute;
-	line-height: 3000%;
-	left: 0px;
+	line-height: 2750%;
+	width: 250px;
+	height: 40px;
+	left: 25px;
 	font-family: 'Raleway';
 }
 input[type="text"] {
@@ -61,6 +63,7 @@ input[type="text"] {
 	padding-right: 50px;
 	border-radius: 30px;
 	font-family: 'Raleway';
+	background: -webkit-linear-gradient(180deg, white 80%, #f2f2f2 33%);
 }
 
 input[type="submit"] {
