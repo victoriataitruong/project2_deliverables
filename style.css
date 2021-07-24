@@ -79,3 +79,38 @@ input[type="submit"] {
 	font-family: 'Raleway';
 	border-radius: 0 30px 30px 0;
 }
+
+.left3 {
+	position: absolute;
+	line-height: 3200%;
+	left: 0px;
+	font-family: 'Raleway';
+	font-weight: bold;
+}
+#rcorners2 {
+	position: absolute;
+	line-height: 3900%;
+	left: 100px;
+	border-radius: 25px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 125px;
+	height: .5;
+	top: 225px;
+}
+#rcorners3 {
+	position: absolute;
+	line-height: 3100%;
+	left: 150px;
+	border-radius: 25px;
+}
+.money-wave {
+	top: 15px;
+	position: absolute;
+	line-height: 3100%;
+	width: 250px;
+	height: 40px;
+	left: 115px;
+	font-family: 'Raleway';
+	color: #0065fc;
+}
