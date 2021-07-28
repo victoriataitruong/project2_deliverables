@@ -85,9 +85,22 @@ input[type="submit"] {
 	line-height: 3200%;
 	left: 0px;
 	font-family: 'Raleway';
+
 	font-weight: bold;
 }
-#rcorners2 {
+
+.low-cost {
+	top: 245px;
+	position: absolute;
+	left: 105px;
+	background: #deebff;
+	width: .5px;
+	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#low-cost2 {
 	position: absolute;
 	line-height: 3900%;
 	left: 100px;
@@ -98,19 +111,123 @@ input[type="submit"] {
 	height: .5;
 	top: 225px;
 }
-#rcorners3 {
+#low-cost3 {
 	position: absolute;
 	line-height: 3100%;
 	left: 150px;
 	border-radius: 25px;
 }
-.money-wave {
-	top: 15px;
+.family-fiendly {
+	top: 245px;
+	position: absolute;
+	left: 150px;
+	background: #deebff;
+	left: 300px;
+	width: .5px;
+	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#family-fiendly2 {
+	position: absolute;
+	line-height: 3900%;
+	left: 300px;
+	border-radius: 25px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 125px;
+	height: .5;
+	top: 225px;
+}
+#family-fiendly3 {
 	position: absolute;
 	line-height: 3100%;
-	width: 250px;
-	height: 40px;
-	left: 115px;
-	font-family: 'Raleway';
+	left: 300px;
+	border-radius: 25px;
+}
+
+.romantic {
+	top: 245px;
+	position: absolute;
+	left: 500px;
+	background: #deebff;
+	width: .5px;
 	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#romantic2 {
+	position: absolute;
+	line-height: 3900%;
+	left: 500px;
+	border-radius: 25px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 125px;
+	height: .5;
+	top: 225px;
+}
+#romantic3 {
+	position: absolute;
+	line-height: 3100%;
+	left: 500px;
+	border-radius: 25px;
+}
+.pets-allowed {
+	top: 245px;
+	position: absolute;
+	left: 700px;
+	background: #deebff;
+	width: .5px;
+	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#pets-allowed2 {
+	position: absolute;
+	line-height: 3900%;
+	left: 700px;
+	border-radius: 25px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 125px;
+	height: .5;
+	top: 225px;
+}
+#pets-allowed3 {
+	position: absolute;
+	line-height: 3100%;
+	left: 700px;
+	border-radius: 25px;
+}
+.informational {
+	top: 350px;
+	position: absolute;
+	left: 105px;
+	background: #deebff;
+	width: .5px;
+	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#informational2 {
+	position: absolute;
+	line-height: 4200%;
+	left: 100px;
+	border-radius: 25px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 125px;
+	height: .5;
+	top: 225px;
+}
+#informational3 {
+	position: absolute;
+	line-height: 4200%;
+	left: 150px;
+	border-radius: 25px;
 }
