@@ -6,6 +6,9 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	overflow-y: scroll;
+}
 body {
 	font-family: 'Raleway';
 	display: flex;
@@ -147,7 +150,7 @@ input[type="submit"] {
 	border-radius: 25px;
 }
 
-.romantic {
+.heart {
 	top: 245px;
 	position: absolute;
 	left: 500px;
@@ -158,7 +161,7 @@ input[type="submit"] {
 	border-radius: 50%;
 	padding: 20px;
 }
-#romantic2 {
+#heart2 {
 	position: absolute;
 	line-height: 3900%;
 	left: 500px;
@@ -169,7 +172,7 @@ input[type="submit"] {
 	height: .5;
 	top: 225px;
 }
-#romantic3 {
+#heart3 {
 	position: absolute;
 	line-height: 3100%;
 	left: 500px;
@@ -207,7 +210,7 @@ input[type="submit"] {
 	top: 350px;
 	position: absolute;
 	left: 105px;
-	background: #deebff;
+	background: #ffffff;
 	width: .5px;
 	color: #0065fc;
 	height: .5px;
@@ -230,4 +233,20 @@ input[type="submit"] {
 	line-height: 4200%;
 	left: 150px;
 	border-radius: 25px;
+}
+#greybox1 {
+	position: absolute;
+	background-color: #f2f2f2;
+	top: 425px;
+	left: 0px;
+	line-height: 4000%;
+	width: 1000px;
+}
+#greybox2 {
+	position: absolute;
+	background-color: #f2f2f2;
+	top: 425px;
+	left: 1050px;
+	line-height: 4000%;
+	width: 500px;
 }
