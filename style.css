@@ -266,6 +266,13 @@ input[type="submit"] {
 	left: 1060px;
 	top: 125px;
 }
+#myline {
+	position: absolute;
+	line-height: 4000%;
+	font-family: 'Raleway';
+	left: 1060px;
+	top: 125px;
+}
 #whitebox1 {
 	position: absolute;
 	border-radius: 25px;
@@ -345,5 +352,86 @@ input[type="submit"] {
 	top: 900px;
 	left: 1100px;
 	line-height: 1000%;
+	width: 400px;
+}
+.image1 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 500px;
+	left: 50px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image2 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 500px;
+	left: 375px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image3 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 500px;
+	left: 700px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image4 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 700px;
+	left: 50px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image5 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 700px;
+	left: 375px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image6 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 700px;
+	left: 700px;
+	line-height: 1000%;
+	width: 250px;
+}
+.image7 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 500px;
+	left: 1100px;
+	line-height: 1000%;
+	width: 400px;
+}
+.image8 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 700px;
+	left: 1100px;
+	line-height: 1000%;
+	width: 400px;
+}
+.image9 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: #fff;
+	top: 900px;
+	left: 1100px;
+	line-height: 900%;
 	width: 400px;
 }
