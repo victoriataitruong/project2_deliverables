@@ -88,7 +88,6 @@ input[type="submit"] {
 	line-height: 3200%;
 	left: 0px;
 	font-family: 'Raleway';
-
 	font-weight: bold;
 }
 
@@ -266,13 +265,15 @@ input[type="submit"] {
 	left: 1060px;
 	top: 125px;
 }
-#myline {
+
+.myline {
 	position: absolute;
 	line-height: 4000%;
-	font-family: 'Raleway';
-	left: 1060px;
-	top: 125px;
+	font-size: 30px;
+	left: 1500px;
+	top: -130px;
 }
+
 #whitebox1 {
 	position: absolute;
 	border-radius: 25px;
@@ -361,7 +362,8 @@ input[type="submit"] {
 	top: 500px;
 	left: 50px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image2 {
 	position: absolute;
@@ -370,7 +372,8 @@ input[type="submit"] {
 	top: 500px;
 	left: 375px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image3 {
 	position: absolute;
@@ -379,7 +382,8 @@ input[type="submit"] {
 	top: 500px;
 	left: 700px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image4 {
 	position: absolute;
@@ -388,7 +392,8 @@ input[type="submit"] {
 	top: 700px;
 	left: 50px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image5 {
 	position: absolute;
@@ -397,41 +402,154 @@ input[type="submit"] {
 	top: 700px;
 	left: 375px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image6 {
 	position: absolute;
 	border-radius: 25px;
 	background-color: #fff;
-	top: 700px;
-	left: 700px;
+	top: 710px;
+	left: 710px;
 	line-height: 1000%;
-	width: 250px;
+	width: 230px;
+	height: 80px;
 }
 .image7 {
 	position: absolute;
 	border-radius: 25px;
 	background-color: #fff;
-	top: 500px;
-	left: 1100px;
+	top: 515px;
+	left: 1110px;
 	line-height: 1000%;
-	width: 400px;
+	width: 200px;
+	height: auto;
 }
 .image8 {
 	position: absolute;
 	border-radius: 25px;
 	background-color: #fff;
-	top: 700px;
-	left: 1100px;
+	top: 710px;
+	left: 1110px;
 	line-height: 1000%;
-	width: 400px;
+	width: 200px;
+	height: auto;
 }
 .image9 {
 	position: absolute;
 	border-radius: 25px;
 	background-color: #fff;
-	top: 900px;
-	left: 1100px;
-	line-height: 900%;
-	width: 400px;
+	top: 910px;
+	left: 1110px;
+	line-height: 1000%;
+	width: 200px;
+	height: 150px;
+}
+.box-text3 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 50px;
+	top: 700px;
+}
+#whitebox10 {
+	position: absolute;
+	border-radius: 25px;
+	background-color: red;
+	top: 1190px;
+	left: 30px;
+	line-height: 4000%;
+	width: 1520px;
+}
+
+#greybox3 {
+	position: absolute;
+	border-radius: 0px;
+	background-color: f2f2f2;
+	top: 1850px;
+	left: 30px;
+	line-height: 1100%;
+	width: 1520px;
+}
+#whitebox11 {
+	position: absolute;
+	border-radius: 0px;
+	background-color: fff;
+	top: 2050px;
+	left: 30px;
+	line-height: 100%;
+	width: 1520px;
+}
+.footer-text1 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 50px;
+	top: 1475px;
+	font-weight: bold;
+}
+.footer-text2 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 50px;
+	top: 1500px;
+}
+.footer-text3 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 50px;
+	top: 1525px;
+}
+.footer-text4 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 50px;
+	top: 1550px;
+}
+.footer-text5 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 500px;
+	top: 1475px;
+	font-weight: bold;
+}
+.footer-text6 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 500px;
+	top: 1500px;
+}
+.footer-text7 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 500px;
+	top: 1525px;
+}
+.footer-text8 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 1000px;
+	top: 1475px;
+	font-weight: bold;
+}
+.footer-text9 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 1000px;
+	top: 1500px;
+}
+.footer-text10 {
+	position: absolute;
+	line-height: 5000%;
+	font-family: 'Raleway';
+	left: 1000px;
+	top: 1525px;
 }
