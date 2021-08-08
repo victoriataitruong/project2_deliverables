@@ -9,663 +9,129 @@
 html {
 	overflow-y: scroll;
 }
-body {
-	font-family: 'Raleway';
+
+/* CSS for text on upper tight side of page */
+.accommodations-text {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100vh;
-	overflow: hidden;
-	margin: 0;
-}
-
-.icon {
-	position: absolute;
-	top: 8px;
-	left: 0px;
-	font-size: 4px;
-	width: 12%;
-}
-
-.topright {
-	position: absolute;
-	top: 8px;
+	flex-flow: row-reverse wrap;
+	top: 1px;
 	right: 16px;
 	font-size: 18px;
 	color: #0065fc;
+	font-family: 'Raleway';
+	float: right;
+}
+.activities-text {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	top: 1px;
+	right: 16px;
+	font-size: 18px;
+	color: black;
+	font-family: 'Raleway';
+	float: right;
+}
+.sign-up-text {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	right: 16px;
+	top: 1px;
+	font-size: 18px;
+	color: #0065fc;
+	float: right;
+	font-family: 'Raleway';
 }
 
-.left {
-	position: absolute;
-	line-height: 1500%;
-	left: 0px;
+/* CSS for reservia image */
+.image-size {
+	display: flex;
+	justify-content: flex;
+	width: 10%;
+}
+
+/* CSS for dream vacation text */
+.dream-vacation-text {
+	margin-top: 20px;
+	display: flex;
+	flex-flow: row-reverse wrap;
+	top: 1px;
+	font-size: 18px;
+	color: black;
+	float: left;
 	font-family: 'Raleway';
 	font-weight: bold;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+/* CSS for nature text */
+.nature-text {
+	margin-top: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	top: 1px;
+	font-size: 12px;
+	color: grey;
+	font-weight: bold;
+	float: left;
+	font-family: 'Raleway';
+	flex-direction: column-reverse;
 }
 
-.left2 {
-	position: absolute;
-	line-height: 1750%;
-	left: 0px;
-	font-family: 'Raleway';
+/* Flexbox colum for upper right of web page (before accommodations) */
+.top-right-text-section {
+	display: inline-flex;
+	flex-direction: column;
 }
-.input-container {
-	position: absolute;
-	line-height: 2750%;
-	width: 250px;
-	height: 40px;
-	left: 25px;
-	font-family: 'Raleway';
+
+/* Flexbox colum for search box section */
+.search-bar {
+	display: flex;
+	flex-direction: row;
 }
+
+/* CSS for location icon */
+.loc {
+	inline-size: 10px;
+}
+
+/* CSS for search box section */
 input[type="text"] {
-	left: 0px;
-	top: 200px;
-	position: absolute;
-	width: 250px;
+	display: flex;
 	height: 40px;
 	padding-right: 50px;
 	border-radius: 30px;
 	font-family: 'Raleway';
 	background: -webkit-linear-gradient(180deg, white 80%, #f2f2f2 33%);
+	text-align: center;
+	font-weight: bold;
 }
 
 input[type="submit"] {
-	left: 0px;
-	top: 200px;
-	position: absolute;
+	display: flex;
 	margin-left: 200px;
 	height: 40px;
 	width: 70px;
 	background: #0065fc;
 	color: white;
-	border-left: 0;
 	font-family: 'Raleway';
 	border-radius: 0 30px 30px 0;
 }
 
-.left3 {
-	position: absolute;
-	line-height: 3200%;
-	left: 0px;
-	font-family: 'Raleway';
-	font-weight: bold;
+/* Set the background color of body to tan */
+body {
+	background-color: tan;
 }
 
-.low-cost {
-	top: 245px;
-	position: absolute;
-	left: 105px;
-	background: #deebff;
-	width: .5px;
-	color: #0065fc;
-	height: .5px;
-	border-radius: 50%;
-	padding: 20px;
-}
-#low-cost2 {
-	position: absolute;
-	line-height: 3900%;
-	left: 100px;
-	border-radius: 25px;
-	border: 2px solid gray;
-	padding: 20px;
-	width: 125px;
-	height: .5;
-	top: 225px;
-}
-#low-cost3 {
-	position: absolute;
-	line-height: 3100%;
-	left: 150px;
-	border-radius: 25px;
-}
-.family-fiendly {
-	top: 245px;
-	position: absolute;
-	left: 150px;
-	background: #deebff;
-	left: 300px;
-	width: .5px;
-	color: #0065fc;
-	height: .5px;
-	border-radius: 50%;
-	padding: 20px;
-}
-#family-fiendly2 {
-	position: absolute;
-	line-height: 3900%;
-	left: 300px;
-	border-radius: 25px;
-	border: 2px solid gray;
-	padding: 20px;
-	width: 125px;
-	height: .5;
-	top: 225px;
-}
-#family-fiendly3 {
-	position: absolute;
-	line-height: 3100%;
-	left: 300px;
-	border-radius: 25px;
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	body {
+		background-color: blue;
+	}
 }
 
-.heart {
-	top: 245px;
-	position: absolute;
-	left: 500px;
-	background: #deebff;
-	width: .5px;
-	color: #0065fc;
-	height: .5px;
-	border-radius: 50%;
-	padding: 20px;
-}
-#heart2 {
-	position: absolute;
-	line-height: 3900%;
-	left: 500px;
-	border-radius: 25px;
-	border: 2px solid gray;
-	padding: 20px;
-	width: 125px;
-	height: .5;
-	top: 225px;
-}
-#heart3 {
-	position: absolute;
-	line-height: 3100%;
-	left: 500px;
-	border-radius: 25px;
-}
-.pets-allowed {
-	top: 245px;
-	position: absolute;
-	left: 700px;
-	background: #deebff;
-	width: .5px;
-	color: #0065fc;
-	height: .5px;
-	border-radius: 50%;
-	padding: 20px;
-}
-#pets-allowed2 {
-	position: absolute;
-	line-height: 3900%;
-	left: 700px;
-	border-radius: 25px;
-	border: 2px solid gray;
-	padding: 20px;
-	width: 125px;
-	height: .5;
-	top: 225px;
-}
-#pets-allowed3 {
-	position: absolute;
-	line-height: 3100%;
-	left: 700px;
-	border-radius: 25px;
-}
-.informational {
-	top: 350px;
-	position: absolute;
-	left: 105px;
-	background: #ffffff;
-	width: .5px;
-	color: #0065fc;
-	height: .5px;
-	border-radius: 50%;
-	padding: 20px;
-}
-#informational2 {
-	position: absolute;
-	line-height: 4200%;
-	left: 100px;
-	border-radius: 25px;
-	border: 2px solid gray;
-	padding: 20px;
-	width: 125px;
-	height: .5;
-	top: 225px;
-}
-#informational3 {
-	position: absolute;
-	line-height: 4200%;
-	left: 150px;
-	border-radius: 25px;
-}
-#greybox1 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #f2f2f2;
-	top: 425px;
-	left: 30px;
-	line-height: 4000%;
-	width: 1000px;
-}
-#greybox2 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #f2f2f2;
-	top: 425px;
-	left: 1050px;
-	line-height: 4000%;
-	width: 500px;
-}
-.box-text1 {
-	position: absolute;
-	line-height: 4000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 125px;
-}
-.box-text2 {
-	position: absolute;
-	line-height: 4000%;
-	font-family: 'Raleway';
-	left: 1060px;
-	top: 125px;
-}
-
-.myline {
-	position: absolute;
-	line-height: 4000%;
-	font-size: 30px;
-	left: 1500px;
-	top: -130px;
-}
-
-#whitebox1 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 50px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox2 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 375px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox3 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 700px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox4 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 50px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox5 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 375px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox6 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 700px;
-	line-height: 1000%;
-	width: 250px;
-}
-#whitebox7 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 1100px;
-	line-height: 1000%;
-	width: 400px;
-}
-#whitebox8 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 1100px;
-	line-height: 1000%;
-	width: 400px;
-}
-#whitebox9 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 900px;
-	left: 1100px;
-	line-height: 1000%;
-	width: 400px;
-}
-.image1 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 50px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image2 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 375px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image3 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 500px;
-	left: 700px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image4 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 50px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image5 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 700px;
-	left: 375px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image6 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 710px;
-	left: 710px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.image7 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 515px;
-	left: 1110px;
-	line-height: 1000%;
-	width: 200px;
-	height: auto;
-}
-.image8 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 710px;
-	left: 1110px;
-	line-height: 1000%;
-	width: 200px;
-	height: auto;
-}
-.image9 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 910px;
-	left: 1110px;
-	line-height: 1000%;
-	width: 200px;
-	height: 150px;
-}
-.box-text3 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 700px;
-}
-#whitebox10 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: red;
-	top: 1190px;
-	left: 30px;
-	line-height: 4000%;
-	width: 1520px;
-}
-
-#greybox3 {
-	position: absolute;
-	border-radius: 0px;
-	background-color: f2f2f2;
-	top: 1850px;
-	left: 30px;
-	line-height: 1100%;
-	width: 1520px;
-}
-#whitebox11 {
-	position: absolute;
-	border-radius: 0px;
-	background-color: fff;
-	top: 2050px;
-	left: 30px;
-	line-height: 100%;
-	width: 1520px;
-}
-.footer-text1 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 1475px;
-	font-weight: bold;
-}
-.footer-text2 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 1500px;
-}
-.footer-text3 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 1525px;
-}
-.footer-text4 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 50px;
-	top: 1550px;
-}
-.footer-text5 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 500px;
-	top: 1475px;
-	font-weight: bold;
-}
-.footer-text6 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 500px;
-	top: 1500px;
-}
-.footer-text7 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 500px;
-	top: 1525px;
-}
-.footer-text8 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 1000px;
-	top: 1475px;
-	font-weight: bold;
-}
-.footer-text9 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 1000px;
-	top: 1500px;
-}
-.footer-text10 {
-	position: absolute;
-	line-height: 5000%;
-	font-family: 'Raleway';
-	left: 1000px;
-	top: 1525px;
-}
-
-#activitybox1 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 50px;
-	line-height: 3850%;
-	width: 275px;
-}
-#activitybox2 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 400px;
-	line-height: 1700%;
-	width: 275px;
-}
-#activitybox3 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1500px;
-	left: 400px;
-	line-height: 1700%;
-	width: 275px;
-}
-#activitybox4 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 800px;
-	line-height: 3850%;
-	width: 275px;
-}
-
-#activitybox5 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 1200px;
-	line-height: 1700%;
-	width: 275px;
-}
-#activitybox6 {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1500px;
-	left: 1200px;
-	line-height: 1700%;
-	width: 275px;
-}
-.imagea {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 50px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.imageb {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 420px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.imagec {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1600px;
-	left: 420px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.imaged {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1250px;
-	left: 830px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.imagee {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1200px;
-	left: 1225px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
-}
-.imagef {
-	position: absolute;
-	border-radius: 25px;
-	background-color: #fff;
-	top: 1525px;
-	left: 1225px;
-	line-height: 1000%;
-	width: 230px;
-	height: 80px;
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	body {
+		background-color: olive;
+	}
 }
