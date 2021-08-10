@@ -112,8 +112,8 @@ input[type="text"] {
 /* CSS for the submit button */
 input[type="submit"] {
 	display: flex;
-	position: absolute;
-	margin-left: 200px;
+	position: relative;
+	margin-left: -50px;
 	height: 40px;
 	width: 70px;
 	background: #0065fc;
@@ -132,7 +132,7 @@ input[type="submit"] {
 .filters-text {
 	display: flex;
 	position: relative;
-	line-height: 300%;
+	line-height: 400%;
 	left: 0px;
 	font-family: 'Raleway';
 	font-weight: bold;
@@ -151,19 +151,21 @@ input[type="submit"] {
 	height: .5px;
 	border-radius: 50%;
 	padding: 20px;
+	top: 50px;
 }
 #low-cost-box-border {
 	position: relative;
-	left: 50px;
+	left: 10px;
 	border-radius: 25px;
 	border: 2px solid gray;
 	padding: 20px;
 	width: 125px;
 	height: .5;
+	top: 20px;
 }
 #low-cost-text {
 	position: relative;
-	left: 100px;
+	left: 50px;
 	border-radius: 25px;
 }
 
