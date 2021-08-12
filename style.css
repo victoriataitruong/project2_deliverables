@@ -9,7 +9,6 @@
 html {
 	overflow-y: scroll;
 }
-
 /* CSS for text on upper tight side of page */
 .accommodations-text {
 	display: flex;
@@ -41,14 +40,12 @@ html {
 	float: right;
 	font-family: 'Raleway';
 }
-
 /* CSS for reservia image */
 .image-size {
 	display: flex;
 	justify-content: flex;
 	width: 10%;
 }
-
 /* CSS for dream vacation text */
 .dream-vacation-text {
 	margin-top: 20px;
@@ -76,19 +73,16 @@ html {
 	font-family: 'Raleway';
 	flex-direction: column-reverse;
 }
-
 /* Flexbox colum for upper right of web page (before accommodations) */
 .top-right-text-section {
 	display: inline-flex;
 	flex-direction: column;
 }
-
 /* Flexbox colum for search box section */
 .search-bar {
 	display: flex;
 	flex-direction: row;
 }
-
 /* CSS for location icon */
 .loc {
 	display: flex;
@@ -96,7 +90,6 @@ html {
 	left: 35px;
 	top: 15px;
 }
-
 /* CSS for the france search box */
 input[type="text"] {
 	display: flex;
@@ -108,14 +101,11 @@ input[type="text"] {
 	text-align: center;
 	font-weight: bold;
 }
-
 /* Flexbox colum for search box section */
 .filters {
 	display: flex;
 	flex-direction: row;
-	gap: -50000;
 }
-
 /* CSS for the submit button */
 input[type="submit"] {
 	display: flex;
@@ -128,7 +118,6 @@ input[type="submit"] {
 	font-family: 'Raleway';
 	border-radius: 0 30px 30px 0;
 }
-
 /* CSS for low-cost filter*/
 .low-cost-icon {
 	position: relative;
@@ -158,7 +147,6 @@ input[type="submit"] {
 	left: -50px;
 	top: 10px;
 }
-
 /* CSS for family-fiendly filter*/
 .family-fiendly-icon {
 	position: relative;
@@ -188,7 +176,6 @@ input[type="submit"] {
 	left: -40px;
 	top: 10px;
 }
-
 /* CSS for romantic filter*/
 .romantic-icon {
 	position: relative;
@@ -218,7 +205,6 @@ input[type="submit"] {
 	left: 120px;
 	top: -75px;
 }
-
 /* CSS for pets-allowed filter*/
 .pets-allowed-icon {
 	position: relative;
@@ -248,12 +234,64 @@ input[type="submit"] {
 	left: -65px;
 	top: 30px;
 }
-
+/* CSS for informational section*/
+#informational {
+	display: flex;
+	flex-direction: row;
+}
+.informational-icon {
+	top: 40px;
+	position: relative;
+	left: 105px;
+	background: #ffffff;
+	width: .5px;
+	color: #0065fc;
+	height: .5px;
+	border-radius: 50%;
+	padding: 20px;
+}
+#informational-box-border {
+	position: relative;
+	line-height: 4200%;
+	left: 100px;
+	border-radius: 5000px;
+	border: 2px solid gray;
+	padding: 20px;
+	width: 20px;
+}
+#informational-text {
+	position: relative;
+	left: 25px;
+	border-radius: 25px;
+}
+/* CSS for grey-boxes section*/
+#grey-boxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#grey-box-1 {
+	position: relative;
+	border-radius: 25px;
+	background-color: lightslategray;
+	top: 100px;
+	left: 30px;
+	line-height: 4000%;
+	width: 1000px;
+}
+#grey-box-2 {
+	position: relative;
+	border-radius: 25px;
+	background-color: lightslategray;
+	top: 100px;
+	left: 1050px;
+	line-height: 4000%;
+	width: 500px;
+}
 /* Media queries*/
 body {
 	background-color: white;
 }
-
 @media screen and (max-width: 992px) {
 	body {
 		background-color: blue;
@@ -262,6 +300,6 @@ body {
 
 @media screen and (max-width: 600px) {
 	body {
-		background-color: olive;
+		background-color: pink;
 	}
 }
